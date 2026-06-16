@@ -10,8 +10,10 @@
 
 ## Extractions
 
-| # | File | Paper Title | Position | Author Role | Status |
-|---|------|-------------|----------|-------------|--------|
-| _1_ | _example.md_ | _Example Paper Title_ | _Position 1_ | _first author_ | _published_ |
-
-_Delete example row and add your own as you extract papers._
+| # | File | Title | Position | Role | Status |
+|---|------|-------|----------|------|--------|
+| 1 | marietta2025_chess_tutor.md | Chess Tutor Web App | N/A (solo project) | sole developer / product owner | beta — live with real users |
+| 2 | marietta2025_ecoprompt.md | EcoPrompt — AI Prompt Optimizer | N/A (hackathon) | backend contributor (RAG, FastAPI, Ollama, HumanDelta, PostgreSQL) | hackathon — no award |
+| 3 | marietta2025_econauts.md | EcoNauts — Renewable Energy Placement | N/A (hackathon) | FastAPI routing (sole), Docker Compose (sole), frontend metrics UI (contributing) | hackathon — 1st place, Sustainability, FullyHacks 2025 |
+| 4 | marietta2025_nuri.md | Nuri — iOS Skincare App | N/A (personal team) | SwiftUI logic layer (sole), Figma-to-code translation (sole), DB/recommendation UI integration | personal team project |
+| 5 | marietta2025_redclarity.md | redClarity — Medical Lab Results Interpreter | N/A (personal team) | Flask backend (sole, 7 endpoints), Gemini prompt engineering (sole, 2 prompts), PDF parsing, 4-language translation | personal team project |
