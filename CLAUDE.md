@@ -132,7 +132,7 @@ _Update this section when starting/finishing a JD._
 
 | Session | Status | Next Command |
 |---------|--------|-------------|
-| (none active) | — | — |
+| Intel AI Algorithm Engineer | Resume + CL WRITTEN — compile pending | `/critique output/AI_algorithm_engineer/session_intel_ai_engineer.md` |
 
 ---
 

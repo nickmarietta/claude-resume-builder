@@ -1,0 +1,56 @@
+\documentclass[11pt,a4paper,roman]{moderncv}
+\usepackage[english]{babel}
+\moderncvstyle{classic}
+\moderncvcolor{green}
+\usepackage[utf8]{inputenc}
+\usepackage{ragged2e}
+\usepackage[scale=0.79]{geometry}
+\usepackage[version=4,arrows=pgf-filled]{mhchem}
+\renewcommand*{\makeletterclosing}{\par\vspace{2ex}\closingname\par}
+
+\name{Nicklaus}{Marietta}
+\address{Corona, CA}
+\phone[mobile]{+1 951-768-7087}
+\email{nickmarietta@live.com}
+
+\begin{document}
+
+\recipient{Hiring Team}{Intel Corporation\\Santa Clara, CA}
+\date{\today}
+\opening{Dear Intel Hiring Team,}
+\makelettertitle
+
+\begin{justify}
+When I built the EcoPrompt RAG backend for FullyHacks 2026, I routed every LLM call through
+a locally-run Ollama model instead of a cloud API. The reasoning was simple: a prompt-efficiency
+tool shouldn't burn cloud credits to run. I found out later that Intel's IPEX-LLM integrates
+with Ollama directly --- the inference stack I was building for is the one Intel is putting
+hardware behind. That's why I'm applying for the AI Algorithm Engineer role.
+
+\par
+
+The EcoPrompt system retrieves prompt-engineering examples, rewrites user inputs through that
+local LLM, and cut token usage by 30\% as measured by HumanDelta. That number mattered to
+me: HumanDelta is a standardized human-preference scoring protocol, not a metric I picked. My
+Chess Tutor project connects Stockfish game evaluations to an LLM output layer with no human
+in the review path before outputs reach beta users. For redClarity at BeachHacks, I designed
+two Gemini system prompts for medical lab interpretation and wired them into one atomic API
+response, delivering both explanation and follow-up physician questions in a single call.
+
+\par
+
+At FullyHacks 2025, I built the FastAPI integration layer for EcoNauts, a 4-person team
+project that won first place in the Sustainability category, connecting ML model outputs to a
+React frontend under a 24-hour deadline. I finish my B.S.\ in Computer Science at Cal State
+Fullerton in May 2026. Intel's work on running AI efficiently on-device rather than in the
+cloud is the direction I want to build toward, and I'd welcome the chance to speak with
+your team.
+\end{justify}
+
+\vspace{0.3cm}
+{Sincerely,\\
+Nicklaus Marietta\\
+B.S.\ Computer Science Candidate\\
+California State University, Fullerton}
+
+\end{document}

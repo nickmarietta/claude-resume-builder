@@ -52,10 +52,10 @@ Track the status of your projects. Skills check this table before every output.
 | Chess Tutor | beta — local deployment, real users | "beta with real users" — never say "deployed" or "production" |
 | EcoNauts (GreenPlacement) | hackathon — 1st place, Sustainability category, FullyHacks 2025 | "won 1st place in the Sustainability category at FullyHacks 2025" |
 | EcoPrompt | hackathon — no award; 30% token reduction metric | "resulted in 30% reduction in token usage" — never claim award |
-| redClarity | personal team project | "contributed backend and LLM layer" — never claim full ownership |
+| redClarity | hackathon — BeachHacks, no award | "contributed backend and LLM layer" or "built for BeachHacks" — never claim award or full ownership |
 | Nuri | personal team project | "implemented app logic and connected Figma designs" — never claim design work |
 | FullyHacks 2024 LLP | hackathon — no award | "built for FullyHacks 2024" — do not imply placement |
-| SignalML (Raytheon) | professional — sponsored capstone, patent contribution | "contributed to patent" — never say "filed" or "awarded" solo |
+| SignalML (Raytheon) | professional — Raytheon/RTX-sponsored capstone; Nick owned LSTM modeling + is_on_baud head + benchmarks; patent disclosure contribution | "contributed to RTX patent disclosure process" — never say "filed," "awarded," or "my patent"; ~44 samples/sec is notebook visualization benchmark, not production throughput |
 
 ---
 

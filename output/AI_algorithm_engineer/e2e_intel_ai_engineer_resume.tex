@@ -1,0 +1,96 @@
+\documentclass{resume}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{fontawesome}
+\usepackage{tikz}
+\usepackage{graphicx}
+\hypersetup{
+    colorlinks = true,
+    linkcolor = [rgb]{0.9,0.4,0.4},
+    anchorcolor = [rgb]{0.9,0.4,0.4},
+    citecolor = [rgb]{0.4,0.4,0.4},
+    filecolor = [rgb]{0.4,0.4,0.4},
+    urlcolor = [rgb]{0.0,0.0,0.99},
+}
+\usepackage{xcolor}
+\usepackage[version=4,arrows=pgf-filled]{mhchem}
+\usepackage[includefoot,left=0.5in,top=0.5in,right=0.5in,bottom=0.2in,textwidth=7.5in,textheight=10.8in]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[R]{\hfill \thepage/\pageref{LastPage}}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+%--- FIXED: Header (config.md) ---
+\name{Nicklaus Marietta}
+
+\address{\href{https://nickmarietta.tech}{nickmarietta.tech} \\ \href{https://www.linkedin.com/in/nicklaus-marietta/}{LinkedIn}}
+\address{nickmarietta@live.com \\ +1 951-768-7087}
+\address{Corona, CA (Open to relocation to Santa Clara, CA)}
+\address{{AI/ML Engineer $\vert$ Generative AI Agents $\cdot$ RAG Pipelines $\cdot$ Prompt Engineering $\vert$ Python}}
+
+\begin{document}
+
+\vspace{-0.15cm}
+
+%--- GENERATE: Summary ---
+\begin{rSection}{Summary}
+CS new grad building generative AI agents, RAG systems, and LLM applications in Python. Developed a RAG backend in FastAPI with Ollama local inference, achieving 30\% token reduction via HumanDelta. Built an agentic chess coaching pipeline connecting Stockfish evaluation to LLM output, serving real beta users with no human in the loop. Engineered Gemini system prompts for medical document interpretation and chess engine output translation. Seeking to contribute full-stack AI development experience to Intel's GenAI agent platform work.
+\end{rSection}
+\vspace{-0.15cm}
+
+%--- GENERATE: Technical Skills (4 groups, JD-ordered: AI/ML first) ---
+\begin{rSection}{Technical Skills}
+
+\begin{skillgroup}{AI / ML}
+\skilldash{\textbf{TensorFlow}, NumPy, \textbf{Gemini API}, scikit-learn}
+\end{skillgroup}
+
+\begin{skillgroup}{Languages}
+\skilldash{\textbf{Python}, JavaScript, TypeScript, C++, Java}
+\end{skillgroup}
+
+\begin{skillgroup}{Web / Frameworks}
+\skilldash{React, Next.js, SvelteKit, \textbf{Flask}, \textbf{FastAPI}, Node.js}
+\end{skillgroup}
+
+\begin{skillgroup}{Tools \& Infra}
+\skilldash{Git, Docker, Google Cloud Platform, AWS, PostgreSQL}
+\end{skillgroup}
+
+\end{rSection}
+\vspace{-0.15cm}
+
+%--- GENERATE: Projects (3 positions × 2 bullets = 6 bullets, all 2L) ---
+\begin{rSection}{Projects}
+
+%-- Position 1: EcoPrompt (EP-01, EP-02) --
+\begin{rSubsection}{RAG Pipeline \& Local LLM Inference}{\textcolor{black!60}{2026}}{Backend Developer $\cdot$ FullyHacks 2026 Hackathon}{}
+\item Developed a retrieval-augmented generation backend in FastAPI integrating a locally-run Ollama LLM, achieving a 30\% reduction in token usage as measured by HumanDelta for an AI sustainability tool.
+\item Designed the FastAPI-to-Ollama inference pipeline routing all LLM calls through a locally-run model, deliberately eliminating cloud API dependency to demonstrate on-device LLM inference architecture.
+\end{rSubsection}
+
+%-- Position 2: Chess Tutor (CT-01, CT-02) --
+\begin{rSubsection}{Agentic AI Coaching System}{\textcolor{black!60}{2025 -- Present}}{Sole Developer $\cdot$ Personal Project}{}
+\item Built an end-to-end agentic chess coaching pipeline connecting PGN game import, Stockfish engine evaluation, and LLM natural-language output, serving real beta users with no human in the loop.
+\item Engineered system prompts translating raw Stockfish evaluation output into plain-English chess coaching feedback, bridging the search-based engine and generative LLM in a single application.
+\end{rSubsection}
+
+%-- Position 3: redClarity (RC-02, RC-05) --
+\begin{rSubsection}{LLM Prompt Engineering \& Medical AI API}{\textcolor{black!60}{2025}}{Backend Developer $\cdot$ BeachHacks Hackathon}{}
+\item Crafted two Gemini system prompts for a medical interpretation use case: a CMP lab results summarizer producing plain-English patient output and a physician question generator tailored to each upload.
+\item Architected a two-call Gemini LLM pipeline executing both system prompts sequentially, packaging explanation and physician questions into a single atomic API response to reduce frontend round trips.
+\end{rSubsection}
+
+\end{rSection}
+\vspace{-0.15cm}
+
+%--- FIXED: Education (config.md) ---
+\begin{rSection}{Education}
+{Bachelor of Science in Computer Science} \hfill {\textcolor{black!60}{Aug 2022 -- May 2026}}\\
+{California State University, Fullerton}, Fullerton, CA \hfill GPA: \textbf{3.62}/4.0
+\end{rSection}
+
+\end{document}

@@ -10,10 +10,10 @@ metadata:
 ## Metadata
 - **Project:** redClarity (backend repo: `nickmarietta/backendredClarity`; frontend: `thisguyblink/redClarity`)
 - **Contributors:** **Nicklaus Marietta** (backend) + teammates (Svelte frontend)
-- **Year:** ongoing (personal team project)
-- **Type:** Personal team project
-- **Status:** Personal — no hackathon, no award
-- **Correct framing:** "contributed backend and LLM layer" — never claim full product ownership (per config.md)
+- **Year:** 2025 (BeachHacks hackathon)
+- **Type:** Team hackathon project
+- **Status:** Hackathon — BeachHacks, no award
+- **Correct framing:** "contributed backend and LLM layer" or "built for BeachHacks" — never claim full product ownership or imply award (per config.md)
 
 ## Methods & Tools
 - **Backend framework:** Python / Flask (REST API — 7 endpoints)
